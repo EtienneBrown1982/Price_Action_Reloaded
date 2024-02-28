@@ -16,3 +16,7 @@ Sequential model because of (1) good with multiple inputs/outputs, shared layers
 testing against real data.
 
 
+## ElasticNet Regressor Model
+ElasticNet uses Lasso and Ridge to make the regression line better if there's a lot of similar varibles. Lasso removes unnecessary variables. Ridge doesn't remove varibles it reduces the impact of values that are similar. This makes the regression line more accurate.
+
+
