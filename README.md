@@ -37,3 +37,10 @@ RFR achieved on average 64% success rate for high/low and 81% success rate for c
 The high/low success function returns a 1 when the actual close is in between the predicted high and low data.
 ### Close Success
 The close success function returns a 1 when the predicted close moves in the same direction as the actual close in comparison to the previous day.
+
+## Back Testing SPY and QQQ with RFR
+The strategy model was trained with 10 years of historical data.  The strategy involved buying and selling based on the action produced from the estimated close data.  The strategy involved starting with 1000 dollars to buy or sell 1 share based on the action and comparing the results to buying and holding SPY or QQQ for that 10 year period with the maximum purchasable number of shares with the initial 1000 dollars.
+
+<img src="/Resources/Images/spy_returns_rfr.png"  width="500" height="300">
+
+<img src="/Resources/Images/qqq_returns_rfr.png"  width="500" height="300">
