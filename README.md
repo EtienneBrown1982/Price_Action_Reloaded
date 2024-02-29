@@ -44,3 +44,8 @@ The strategy model was trained with 10 years of historical data.  The strategy i
 <img src="/Resources/Images/spy_returns_rfr.png"  width="500" height="300">
 
 <img src="/Resources/Images/qqq_returns_rfr.png"  width="500" height="300">
+
+## Future Work and Next Steps
+* The next major feature would be to improve the function for how many shares are bought/sold based on the current cash position. Currently, if the cash position is too high ( > 1000 dollars) there is a drag on strategy returns because of the flat returns from holding cash.
+*  Jupyter Notebook to explore how **good** the close success has to be in order to be profitable for individual equities.
+* Use GridSearch to explore if there are better parameters to use in Random Forest Regressor to improve the **close success** outcome.
